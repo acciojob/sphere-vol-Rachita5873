@@ -1,6 +1,6 @@
-function volume_sphere(event) {
+function volume_sphere() {
     //Write your code here
-	event.preventDefault();
+	// event.preventDefault();
 	var radius = parseFloat(document.getElementById("radius").value);
 	var Volume = ((4/3) * Math.PI * Math.pow(radius, 3)).toFixed(2);
 	var display = document.getElementById("volume");
